@@ -1,0 +1,24 @@
+{
+    "name": "turing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Deepak Sharma",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^0.21.12",
+        "mysql": "^2.18.1",
+        "passport": "^0.4.1",
+        "passport-facebook": "^3.0.0",
+        "short-uuid": "^4.1.0",
+        "uuid": "^8.3.2"
+    }
+}
